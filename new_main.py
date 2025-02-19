@@ -367,8 +367,9 @@ def main():
     top_section = st.columns([2, 6, 2])  # Adjust ratios for alignment
 
     with top_section[0]:  # Left section for Client logo and UI logo
-        st.image("client_logo.jpg", width=200)  # Adjust width as needed
-        st.image(ui_logo, width=700)  # Adjust width as needed
+        #st.image("client_logo.jpg", width=200)  # Adjust width as needed
+        st.image(ui_logo, width=700)
+        st.write("")# Adjust width as needed
 
     with top_section[1]:  # Center section (Empty for spacing)
         st.write("")
